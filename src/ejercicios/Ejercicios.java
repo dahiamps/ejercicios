@@ -34,6 +34,7 @@ public class Ejercicios {
         System.out.println("El dinero de ricardo es: $" + dineroRicardo);
          */
  /*2)*/
+ /*
         final int SALARIO_BASE = 3500000;
         final int VALOR_COMISION = 1500000;
 
@@ -49,6 +50,27 @@ public class Ejercicios {
         float salarioFinal = (float) (SALARIO_BASE + comisionDeducida);
 
         System.out.println("Su salario es: $" + salarioFinal);
+*/
+ 
+ /*3)*/
+ 
+            // Ax2+Bx+C
+    
+         Scanner leer = new Scanner(System.in);
+         
+         System.out.println("Digite el coeficiente A:");
+         final int A = leer.nextInt();
+         System.out.println("Digite el coeficiente B:");
+         final int B = leer.nextInt();
+         System.out.println("Digite el coeficiente C:");
+         final int C = leer.nextInt();
+         
+         double x1=((B*-1)+(Math.sqrt((Math.pow(B, 2))-(4*A*C))))/(2*A);
+         double x2=((B*-1)-(Math.sqrt((Math.pow(B, 2))-(4*A*C))))/(2*A);
+         
+         
+         System.out.println("El valor de x1 es "+x1);
+         System.out.println("El valor de x2 es "+x2);
     }
 
 }
