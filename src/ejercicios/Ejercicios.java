@@ -50,13 +50,10 @@ public class Ejercicios {
         float salarioFinal = (float) (SALARIO_BASE + comisionDeducida);
 
         System.out.println("Su salario es: $" + salarioFinal);
-*/
- 
+         */
  /*3)*/
- 
-            // Ax2+Bx+C
-    
-         Scanner leer = new Scanner(System.in);
+        // Ax2+Bx+C
+        /*   Scanner leer = new Scanner(System.in);
          
          System.out.println("Digite el coeficiente A:");
          final int A = leer.nextInt();
@@ -70,7 +67,21 @@ public class Ejercicios {
          
          
          System.out.println("El valor de x1 es "+x1);
-         System.out.println("El valor de x2 es "+x2);
+         System.out.println("El valor de x2 es "+x2);*/
+ /*4)*/
+ /*     Ac+By=c
+        Dx+Ey=f
+         */
+ /*5)*/
+        Scanner leer = new Scanner(System.in);
+
+        System.out.println("Digite el area: ");
+        int area = leer.nextInt();
+        
+        double lado=Math.sqrt(area);
+        double cercado = lado*4;
+        
+        System.out.println("La cantidad de alambre es de: "+cercado);
     }
 
 }
